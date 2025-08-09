@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: none;
+}
+
+.dialog-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f3336;
+    color: white;
+    padding: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    width: 300px;
+    display: none;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.dialog-header {
+    background-color: rgb(35, 35, 35);
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialog-header h2 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+}
+
+.close-btn {
+    background-color: #c0392b;
+    color: white;
+    border: none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+}
+
+.close-btn:hover {
+    background-color: #a93226;
+}
+
+.dialog-body {
+    padding: 15px 20px;
+    background-color: #2f3336;
+}
+
+.dialog-body button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    background-color: #44c767;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.dialog-body button:hover {
+    background-color: #3cb75d;
+}
